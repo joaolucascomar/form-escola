@@ -16,11 +16,11 @@
         <p>Insira seu Telefone</p>
         <input type="tel" name="phone" placeholder="(XX)XXXXX-XXXX" required>
         <p>Está trabalhando atualmente?</p>
-        <input type="radio" name="work" value="sim"> Sim
-        <input type="radio" name="work" value="nao"> Não
+        <input type="radio" name="work" value="sim" required> Sim
+        <input type="radio" name="work" value="nao" required> Não
         <br>
         <p>Insira seu gênero</p>
-        <select name="genero">
+        <select name="genero" required>
             <option value="1">Prefiro não informar</option>
             <option value="2">Masculino</option>
             <option value="3">Feminino</option>
@@ -28,7 +28,7 @@
         </select>
         <br>
         <p>Insira seu Feedback</p>
-        <textarea name="feedback" placeholder="Escreva sua mensagem..."></textarea>
+        <textarea name="feedback" placeholder="Escreva sua mensagem..." required></textarea>
         <br>
         <br>
         <input type="checkbox" name="novidades" checked> Concordo com os Termos de serviço
